@@ -1,0 +1,23 @@
+[
+  {
+    "week":1,
+    "distance":29.2,
+    "tss":75,
+    "elevation":70,
+    "work":495
+  },
+  {
+    "week":2,
+    "distance":36.6,
+    "tss":130,
+    "elevation":62,
+    "work":609
+  },
+  {
+    "week":3,
+    "distance":27.1,
+    "tss":152,
+    "elevation":59,
+    "work":513
+  }
+]
