@@ -3,16 +3,16 @@ fetch('data.json')
 .then(data => {
 
     const totalDistance =
-        data.reduce((sum,row)=>sum+row.distance,0);
+        data.reduce((sum, row) => sum + row.distance, 0);
 
     const totalTSS =
-        data.reduce((sum,row)=>sum+row.tss,0);
+        data.reduce((sum, row) => sum + row.tss, 0);
 
     const totalWork =
-        data.reduce((sum,row)=>sum+row.work,0);
+        data.reduce((sum, row) => sum + row.work, 0);
 
     const totalElevation =
-        data.reduce((sum,row)=>sum+row.elevation,0);
+        data.reduce((sum, row) => sum + row.elevation, 0);
 
     document.getElementById('distance').innerText =
         totalDistance.toFixed(1) + " km";
